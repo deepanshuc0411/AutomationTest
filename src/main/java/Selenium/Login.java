@@ -25,7 +25,7 @@ public class Login {
 				.sendKeys("Sed@rplu$@11");
 
 		driver.findElement(By.xpath("(//span[text()='Login'])[2]")).click();
-		driver.close();
+		driver.getTitle();
 		System.out.println("Test completed");
 
 	}
